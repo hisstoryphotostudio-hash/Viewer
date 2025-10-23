@@ -1,0 +1,60 @@
+.source-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #f3f5f9;
+}
+.status {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+}
+.status.ok {
+  background: var(--accent2);
+}
+.status.err {
+  background: #ec4b4b;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table th,
+.table td {
+  padding: 10px;
+  border-bottom: 1px solid #f3f5f9;
+  text-align: left;
+}
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(2, 6, 23, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal {
+  background: white;
+  padding: 18px;
+  border-radius: 10px;
+  min-width: 320px;
+}
+.card-stats {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.stat {
+  flex: 1;
+  background: #fbfdff;
+  padding: 12px;
+  border-radius: 10px;
+}
+.chart-container {
+  background: #fff;
+  padding: 12px;
+  border-radius: 10px;
+}

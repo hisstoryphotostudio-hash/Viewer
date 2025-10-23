@@ -1,0 +1,9 @@
+{
+  "name": "sheet-dashboard",
+  "private": true,
+  "workspaces": ["client", "server"],
+  "scripts": {
+    "client": "npm run dev --prefix client",
+    "server": "npm run dev --prefix server"
+  }
+}
